@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>TIC-TAC-TOE</h1>
+    <div class="counter">
+        <div class="points">
+            <p><strong>X</strong></p>
+            <span class="counter-x">0</span>
+        </div>
+        <div class="points">
+            <p><strong>O</strong></p>
+            <span class="counter-o">0</span>
+        </div>
+        
+        
+        
+    </div>
+    <h2 id="winner"></h2>
+
+    <div class="board">
+        <div class="grid-item 1" data-gridItem="1"></div>
+        <div class="grid-item 2" data-gridItem="2"></div>
+        <div class="grid-item 3" data-gridItem="3"></div>
+        <div class="grid-item 4" data-gridItem="4"></div>
+        <div class="grid-item 5" data-gridItem="5"></div>
+        <div class="grid-item 6" data-gridItem="6"></div>
+        <div class="grid-item 7" data-gridItem="7"></div>
+        <div class="grid-item 8" data-gridItem="8"></div>
+        <div class="grid-item 9" data-gridItem="9"></div>
+    </div>
+    <div class="btns">
+        <button id="reset-points-btn" onclick="resetPoints()">Reset Points</button>
+        <button id="new-game-btn" onclick="refreshPage()" class="end-game">Next Round</button>
+    </div>
+    
+</body>
+</html>
